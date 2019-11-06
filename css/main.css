@@ -8,7 +8,7 @@ html {
 }
 
 .img-flex {
-  display:block;
+  display: block;
   width: 100%
 }
 
@@ -25,10 +25,21 @@ html {
 .card-title {
   margin: 0;
   padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%
 }
 
 .card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 4px solid green;
   background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.card-head {
+  position: relative;
 }
