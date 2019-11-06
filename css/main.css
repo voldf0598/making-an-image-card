@@ -3,13 +3,13 @@ html {
   font-family: sans-serif;
 }
 
-*, *::before, *, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
 .img-flex {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .card {
@@ -28,7 +28,7 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%
+  width: 100%;
 }
 
 .card-label {
